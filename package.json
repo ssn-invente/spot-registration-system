@@ -1,0 +1,28 @@
+{
+  "name": "invente-spot-reg",
+  "version": "1.0.0",
+  "description": "Registration handling system for Invente 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssn-invente/spot-registration-system.git"
+  },
+  "keywords": [
+    "invente",
+    "registration",
+    "electron-app"
+  ],
+  "author": "Sudar Abisheck <sudarabisheck@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssn-invente/spot-registration-system/issues"
+  },
+  "homepage": "https://github.com/ssn-invente/spot-registration-system#readme"
+}

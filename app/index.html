@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="app">
+    <head>
+        <title>Invente Spot Registration</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div style="padding: 20px;">
+            <img src="assets/logo.png" width="150px"></img>
+            <img style="float:right;" src="assets/ssn.png" width="100px"></img>
+        </div>
+        <div class="container-fluid tab-container" ng-controller="TabController">
+            <ul class="nav nav-tabs" role="tablist">
+                    <li ng-class="{active:isSelected(1)}" role="presentation">
+                        <a ng-click="select(1)" aria-controls="all-menu" role="tab">General</a>
+                    </li>
+                    <li ng-class="{active:isSelected(2)}" role="presentation">
+                        <a ng-click="select(2)" aria-controls="appetizers" role="tab">Events / Workshop / Gaming</a>
+                    </li>
+                </ul>
+
+                <div class="gen-tab-content" ng-show="isSelected(1)">
+                    <h4>Online Registered</h3>
+                    <div class="">
+
+                    </div>
+                    <h4>Fresh Registration</h3>
+                </div>
+        </div>
+    </body>
+    <script src="js/angular.min.js"></script>
+    <script src="js/main.js"></script>
+</html>
